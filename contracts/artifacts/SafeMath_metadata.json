@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.17+commit.bdeb9e52"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "SafeMath"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeUSDT.sol": "SafeMath"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeUSDT.sol": {
+			"keccak256": "0x7a58743de350f7a26433bc6e61660499154a993260c9a01298ce739616a33ac2",
+			"urls": [
+				"bzzr://d658ac300c1fe728c4aa4a0d50ca6bd59e9c0669675f1e3f06ff0df5d12a4cc2"
+			]
+		}
+	},
+	"version": 1
+}

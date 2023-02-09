@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "incrementMsgCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "msgCall",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TheBlockchainMessenger.sol": "TheBCMessenger"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TheBlockchainMessenger.sol": {
+			"keccak256": "0xe6eb2a0c884c294580db15b18ca5c0308a4f541e1edcc70878234fa551dff95a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://363a8a566ee1f6b073e9d0ada96021d4ccf9dc43ecb38242b788b19304f1e9ae",
+				"dweb:/ipfs/QmWh8UKsC1HH2ufWVU1Z7woQ5Xi5iT8MhCNvYgZyLzkPfp"
+			]
+		}
+	},
+	"version": 1
+}

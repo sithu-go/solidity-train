@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_strangebool",
+						"type": "bool"
+					}
+				],
+				"name": "setStrangeBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "strangeBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeBoolean.sol": "StrangeBoolean"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeBoolean.sol": {
+			"keccak256": "0x5b59a27f7076729a3af98e94b93e238cc05e2ef0138cdb9d657265904a8ab481",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://413838a62cc8d64d64418922f02c1c15e1da6eb0054493613ebf03b456d910a8",
+				"dweb:/ipfs/QmXEZX7Z8vYsZgZVTVdt1jVQGodZEvTzvzGtJgvmntkLMy"
+			]
+		}
+	},
+	"version": 1
+}

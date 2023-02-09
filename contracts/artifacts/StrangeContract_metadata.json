@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "strangeString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "updatedString",
+						"type": "string"
+					}
+				],
+				"name": "updateStrangeString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeContract.sol": "StrangeContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeContract.sol": {
+			"keccak256": "0x9ce929386091eb6ef54947903c22d6cb210709a3c5445f07abfac13aa8ffeb53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://23ee7db0495b21be78198a091a9bc87b6a2a4652bf8ff9f9310fde91aadab0d3",
+				"dweb:/ipfs/Qmb54wMhjNPfu5z4tUqnvxEuLad8MSUaFMeU1iHapGoVCX"
+			]
+		}
+	},
+	"version": 1
+}

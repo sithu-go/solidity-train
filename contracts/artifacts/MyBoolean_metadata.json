@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeBool.sol": "MyBoolean"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeBool.sol": {
+			"keccak256": "0xf9a6ef93a90a210e53467fb154cb68aeac9eb9667400bd277fadf210cbd12e09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://23cc6d81a2269ea2a7f13603a4731bc1137da4a4948d95d0ad4fd25f429cd9e1",
+				"dweb:/ipfs/QmfU6YNT8HcVwZu8wUQc11wSJnXFZ7U35oRge61X14NVob"
+			]
+		}
+	},
+	"version": 1
+}

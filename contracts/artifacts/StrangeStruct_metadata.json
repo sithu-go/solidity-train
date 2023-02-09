@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeStruct.sol": "StrangeStruct"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeStruct.sol": {
+			"keccak256": "0xaa1415878352381c4139024acbdd30255647233ea14d2dbf57ae5375176b1b8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df6c420aa02af5aef32d17e54012e04c541011a4b080ca95fd8a618c3679aa77",
+				"dweb:/ipfs/Qmc55vyL3RhCUmnM5aD2qQMmrr3icXEwoqs41cjgJduhii"
+			]
+		}
+	},
+	"version": 1
+}

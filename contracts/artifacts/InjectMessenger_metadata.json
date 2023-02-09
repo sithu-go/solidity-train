@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"name": "changeMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/InjectMessenger.sol": "InjectMessenger"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/InjectMessenger.sol": {
+			"keccak256": "0x422c40e1b74a99016f932ca83a875e0c2e8b4a96c75d7e5522257a521ec403da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f620a0ef521f868fdbc9666b7b1e9d11c2f483c369f04ceb87cafaca59700122",
+				"dweb:/ipfs/QmUYMGxPjTZHv1mYV7vQ25q6meDCxNx5UKMCrL2gWo9bC5"
+			]
+		}
+	},
+	"version": 1
+}

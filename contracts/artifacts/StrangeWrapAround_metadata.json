@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrementStrangeUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "strangeUint",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StrangeWrapAround.sol": "StrangeWrapAround"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StrangeWrapAround.sol": {
+			"keccak256": "0xb41096fccee227c16366df024c23008636587d64905edbcd589e64f62421b519",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cd8e25603e063b5fb6478201c336dccceca82312d9da1b06a8ba1b5849c20ca",
+				"dweb:/ipfs/QmTZpw4hMqxeNy458X78NJwSwybn85owJc8nUk4xJMqBQv"
+			]
+		}
+	},
+	"version": 1
+}
