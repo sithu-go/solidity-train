@@ -6,21 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_string",
-						"type": "string"
-					}
-				],
-				"name": "changeString",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "strangeString",
+				"name": "myString",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -29,6 +16,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/PayableModifier.sol": "PayableContract"
+			"contracts/retrain.sol": "MyContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/PayableModifier.sol": {
-			"keccak256": "0xcd78477d596eef46577a50f89dd5fe20032bf813df776b3a072b0d0336644231",
+		"contracts/retrain.sol": {
+			"keccak256": "0x304aadb6eb1232b5bd6fcfb9e6b01faddd3d93492bdcd519c2d17cfd42cd8222",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://26d9ae4eae0ce4163df6444caba70a75ab2ed3e3a0dd9378ebd64cc00f1b60e1",
-				"dweb:/ipfs/QmRk8zBtySorPWXfPYec2nR4HH5L1MbX46sZgMg8GNb6CE"
+				"bzz-raw://17041f3089246228c163e9a32fb9ffcc61ef84c4e76de09b86eb1362d7a8e6a9",
+				"dweb:/ipfs/QmQFh9wqjwag4Bf3EvbJ6JC9uQFNkmZSZhWMgrFZNYaNXB"
 			]
 		}
 	},

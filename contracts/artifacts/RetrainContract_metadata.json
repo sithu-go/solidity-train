@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "NotAllowedError",
-				"type": "error"
-			},
-			{
 				"inputs": [],
-				"name": "aFunction",
+				"name": "aFuntion",
 				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
@@ -37,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TryCatch.sol": "WillThrow"
+			"contracts/retrain.sol": "RetrainContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -51,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/TryCatch.sol": {
-			"keccak256": "0x78b1622ed195cb2871196fa3f2a3c817c0b4d841516ad576f691e3e1dfcc12ca",
+		"contracts/retrain.sol": {
+			"keccak256": "0xe5baa3d76bcc200ff08af60b66e78003c626430efe0d156e7d99045cf7a0e653",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://200aac42be58c8f7fb2e4617dc29789ae8891534173e39dc3a00b2c8e9b78eb2",
-				"dweb:/ipfs/QmYgRb7hE2BbxF1mj17jqjAhoc5ukLRiawdsqsZBbLyMME"
+				"bzz-raw://54045fd67a9db41a4c1e20e7543e4cf3cd29b253634ddf4a73742605eac37eef",
+				"dweb:/ipfs/QmRJSrXyP46GJcRrH8VLpHs5a3A1tVJWCSkCmaSJDXYHWQ"
 			]
 		}
 	},

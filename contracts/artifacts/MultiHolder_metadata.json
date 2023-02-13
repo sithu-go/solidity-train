@@ -9,16 +9,49 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_member",
 						"type": "address"
 					}
 				],
-				"name": "addressMapping",
+				"name": "addMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "countMembers",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint8",
 						"name": "",
-						"type": "bool"
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxMembers",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -27,17 +60,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_key1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_key2",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "getUintUintBoolMapping",
+				"name": "members",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -50,7 +78,26 @@
 			},
 			{
 				"inputs": [],
-				"name": "setMyAddressToTrue",
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "removeMember",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -59,29 +106,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_key1",
+						"name": "_amount",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_key2",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_toAddress",
+						"type": "address"
 					}
 				],
-				"name": "setUintUintBoolMapping",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "setValue",
+				"name": "sendMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -94,12 +128,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "strangeMapping",
+				"name": "votesAddM",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "address",
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -119,7 +153,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StrangeMapping.sol": "StrangeMapping"
+			"contracts/multiholder.sol": "MultiHolder"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -133,12 +167,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StrangeMapping.sol": {
-			"keccak256": "0x22744ecd28c8de20529e379c9d222872bffe6e21a1fd30c7bce962d470222e08",
+		"contracts/multiholder.sol": {
+			"keccak256": "0xb5726adbf04d955ad6ac2cfd9e36de4a2c7eb255c9e4ea318c5a571ee1b261cf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1cd1a82153fde38c6213359644fee35505cefc070aa6e3d5396f0ee3c27ae59d",
-				"dweb:/ipfs/QmR6p2Um3MuKq4YDZmMUAcEehZ7brQwTAhvw9HM7RDcRzt"
+				"bzz-raw://25972aa3832b16754c2c69677e346e91beb933d36f19b2c9cdd7ebbd3dcc02f1",
+				"dweb:/ipfs/QmULaADPjYwVHBv9zgoThzUJQqChRRcVYvQDCfJomNtEfo"
 			]
 		}
 	},

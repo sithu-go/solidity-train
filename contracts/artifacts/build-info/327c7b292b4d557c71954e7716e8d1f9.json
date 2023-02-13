@@ -38412,8 +38412,8 @@
 								}
 							],
 							"contractDependencies": [
-								139,
-								169
+								169,
+								139
 							],
 							"contractKind": "contract",
 							"documentation": "@title Basic token\n@dev Basic version of StandardToken, with no allowances.",
@@ -40305,10 +40305,10 @@
 								}
 							],
 							"contractDependencies": [
-								205,
+								169,
 								139,
 								347,
-								169
+								205
 							],
 							"contractKind": "contract",
 							"documentation": "@title Standard ERC20 token\n * @dev Implementation of the basic standard token.\n@dev https://github.com/ethereum/EIPs/issues/20\n@dev Based oncode by FirstBlood: https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol",
@@ -43616,9 +43616,9 @@
 								}
 							],
 							"contractDependencies": [
+								169,
 								139,
-								347,
-								169
+								347
 							],
 							"contractKind": "contract",
 							"documentation": null,
@@ -44938,10 +44938,10 @@
 								}
 							],
 							"contractDependencies": [
-								205,
+								169,
 								139,
 								347,
-								169,
+								205,
 								546
 							],
 							"contractKind": "contract",
@@ -45368,10 +45368,10 @@
 								}
 							],
 							"contractDependencies": [
-								205,
+								169,
 								139,
 								347,
-								169,
+								205,
 								546,
 								603,
 								717
@@ -53053,8 +53053,8 @@
 						{
 							"attributes": {
 								"contractDependencies": [
-									139,
-									169
+									169,
+									139
 								],
 								"contractKind": "contract",
 								"documentation": "@title Basic token\n@dev Basic version of StandardToken, with no allowances.",
@@ -55079,10 +55079,10 @@
 						{
 							"attributes": {
 								"contractDependencies": [
-									205,
+									169,
 									139,
 									347,
-									169
+									205
 								],
 								"contractKind": "contract",
 								"documentation": "@title Standard ERC20 token\n * @dev Implementation of the basic standard token.\n@dev https://github.com/ethereum/EIPs/issues/20\n@dev Based oncode by FirstBlood: https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol",
@@ -58707,9 +58707,9 @@
 						{
 							"attributes": {
 								"contractDependencies": [
+									169,
 									139,
-									347,
-									169
+									347
 								],
 								"contractKind": "contract",
 								"documentation": null,
@@ -60191,10 +60191,10 @@
 						{
 							"attributes": {
 								"contractDependencies": [
-									205,
+									169,
 									139,
 									347,
-									169,
+									205,
 									546
 								],
 								"contractKind": "contract",
@@ -60623,10 +60623,10 @@
 						{
 							"attributes": {
 								"contractDependencies": [
-									205,
+									169,
 									139,
 									347,
-									169,
+									205,
 									546,
 									603,
 									717

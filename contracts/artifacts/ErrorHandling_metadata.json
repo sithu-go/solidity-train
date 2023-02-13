@@ -80,11 +80,11 @@
 	},
 	"sources": {
 		"contracts/TryCatch.sol": {
-			"keccak256": "0x783b9155e98dcaa05ec3cf48e842bac2b400b4e247f1fbe8d43ab6f81093e3fe",
+			"keccak256": "0x78b1622ed195cb2871196fa3f2a3c817c0b4d841516ad576f691e3e1dfcc12ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2500c0855fd6aebc646e8c15e22df33d63c6093fdf41cd998283d2404a350039",
-				"dweb:/ipfs/QmXLGgiKdkjjgru2UEych2tMH7r8HotJCCPyqvKAJ9HCp5"
+				"bzz-raw://200aac42be58c8f7fb2e4617dc29789ae8891534173e39dc3a00b2c8e9b78eb2",
+				"dweb:/ipfs/QmYgRb7hE2BbxF1mj17jqjAhoc5ukLRiawdsqsZBbLyMME"
 			]
 		}
 	},

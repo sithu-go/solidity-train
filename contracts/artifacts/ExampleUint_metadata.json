@@ -7,54 +7,21 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "decrementStrangeUInt",
+				"name": "decrementUint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "incrementInt",
+				"name": "incrementUint8",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "incrementStrangeUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_strangeUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setStrangeUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "strangeInt",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "strangeUint",
+				"name": "myUint",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -67,7 +34,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "strangeUint8",
+				"name": "myUint8",
 				"outputs": [
 					{
 						"internalType": "uint8",
@@ -76,6 +43,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myUnit",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyunit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -92,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StrangeUint.sol": "StrangeUint"
+			"contracts/retrain.sol": "ExampleUint"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -106,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StrangeUint.sol": {
-			"keccak256": "0x6e3740dc23163fac547d0149adb8728b1989729e4c8a5d71732e8034535c12f4",
+		"contracts/retrain.sol": {
+			"keccak256": "0x3aa255a8add02625586e30302be291bf8ff75c08de65101b809661c5561a50a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ad4612256184a3c167df8e4d81d7b4f9819cec6e09ce10dd10ef366bb2f1b7a9",
-				"dweb:/ipfs/Qmb2GK1ZegmocnN6KzdPifUn63M53yCn9yCFWtUs4wtJhn"
+				"bzz-raw://e0207484dbb5f1bf2f4c76f9c5685be050c21043fdf5699dc7c0e8b9e252b593",
+				"dweb:/ipfs/QmbzD5YKDZK7pTGLNPnxC4QAnrQtWGhEhkE1v27um3uqzu"
 			]
 		}
 	},

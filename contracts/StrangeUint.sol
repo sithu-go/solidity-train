@@ -4,6 +4,10 @@ pragma solidity ^0.8.14;
 
 contract StrangeUint {
     // uint is a alias for uint256 : can store (0 - (2^256)-1)
+
+    // below line cost more gas in deploy stage
+    // uint public strangeUint = 0;
+
     uint public strangeUint;
 
     uint8 public strangeUint8 = 250;

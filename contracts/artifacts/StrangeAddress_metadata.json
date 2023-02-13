@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/StrangeAddress.sol": {
-			"keccak256": "0x92196a8be53a3b8f4b1e660e9d9a27036fb39926c4684734e66faa3e1f2d119d",
+			"keccak256": "0x73108b02bae79fa4f45151f3d3b25629c30f80af07674e77b08311db87ce63e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://94dd6d238dc7c35c8925aa40b087baf6622471949345888bb81b633120359d9a",
-				"dweb:/ipfs/QmP7abHfuPMHdo4GAK6QZtu2Duz6HChwmmNUqvMu1n21FM"
+				"bzz-raw://ca2f2340d56c7e0d851c7fc307aab0b13caf78dd85ce7010a0ba5ef7a86c9107",
+				"dweb:/ipfs/QmU5bvCfD8m9eQUf4BNYRfpqAVxo2mw9YDJRi59oXmg7VQ"
 			]
 		}
 	},

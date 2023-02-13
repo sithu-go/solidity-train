@@ -31,7 +31,7 @@ contract ErrorHandling {
             emit ErrorLogging(reason);
         } catch Panic (uint errCode) {  // panic only works for assert
             emit ErrorCode(errCode);
-        } catch (bytes memory lowLevelData) {
+        } catch (bytes memory lowLevelData) { // for custom error
             emit ErrorLogBytes(lowLevelData);
         }
     }

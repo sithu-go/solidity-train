@@ -13,6 +13,7 @@ contract StrangeString {
         strangeString = _strangeString;
     }
 
+    // now we are comparing hashes of the strings
     function compareTwoStrings(string memory _strangeString) public view returns(bool) {
         return keccak256(abi.encodePacked(strangeString)) == keccak256(abi.encodePacked(_strangeString));
     }

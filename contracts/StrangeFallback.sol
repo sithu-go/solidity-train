@@ -6,17 +6,29 @@ contract StrangeFallback {
     string public lastFunctionCalled;
     uint public strangeUint;
 
+
+    // input 
     // 0xa8db5372000000000000000000000000000000000000000000000000000000000000000c
     // Ox means hex value
     // four bytes (a8db5372) 8 characters are function signature
 
     // when you retrieve hex value of function with web3.utils.sha3("setStrangeUint(uint256)")
     // 0xa8db5372052efa2901e81f090e228824b84e3c9dee557354d5beeb4a4420dd2c
+    // the first four bytes are a function identifier.
     // look at the first four bytes, you will see (a8db5372), that's the function identifier.
+
+    // take this
+    // 0xa8db5372000000000000000000000000000000000000000000000000000000000000000c
+    // and add in calldata, it will perfectly call the function
 
     function setStrangeUint(uint _strangeNewUint) public {
         strangeUint = _strangeNewUint;
     }
+
+    // event Received(address, uint);
+    // receive() external payable {
+    //     emit Received(msg.sender, msg.value);
+    // }
 
     receive() external payable {
         lastValueSent = msg.value;

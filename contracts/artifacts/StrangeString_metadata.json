@@ -105,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/StrangeString.sol": {
-			"keccak256": "0x1af55a03db46bb140a44086a35888a16aae33249214c24d87cb38696d22002aa",
+			"keccak256": "0x7facefca6eade2f2f167fd3ad9746ab6b09a7c5b099bd999780258da09c44980",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e3798e178e0291387f2ade8e09394f53c9b9f3a24a291c627c83b24cc798473",
-				"dweb:/ipfs/QmeBgBStaH7YRk2C4vkxibDCzQgGBwY8a5JVqjqTTkGeZv"
+				"bzz-raw://a59204aa2add26bd06217e67bb3640bdc4331c70c0c9e5496e105e2bdecea03a",
+				"dweb:/ipfs/QmNZKgCs2MxhEL1mLPoS9WePz7qyoj9LwAsuGAhY19UPtj"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -81,7 +81,7 @@
 		"compilationTarget": {
 			"contracts/StrangeFallback.sol": "StrangeFallback"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -94,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/StrangeFallback.sol": {
-			"keccak256": "0x961d56974f380c3cb2dc8cfad749104799330af05c6bd4d4df616caa9af31dd7",
+			"keccak256": "0xddf507a5420b838ad48cdc42263995035559e1fbae8b5368d231979234191346",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ac32be3c58fa804cc5f39bb1cd291ce3935724141e1b6c1c6f30fc9e42d0155",
-				"dweb:/ipfs/Qmf1N4i2ppmL8JxwDyQA8UUQXHyEytxEg9t7e2WnaBwXsE"
+				"bzz-raw://b19dbb161e0dec6a8730e6505ef4080936b6076e180cf83e838feb9265f6b2db",
+				"dweb:/ipfs/QmQ3KUkx3SnvEaT4iGAWzefiKFHwTaGk1oPkET5QbSDurp"
 			]
 		}
 	},

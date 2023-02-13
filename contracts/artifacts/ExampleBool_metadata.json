@@ -1,26 +1,32 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.14+commit.80d49f37"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "strangeAddress",
+				"name": "myBool",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bool",
 						"name": "",
-						"type": "address"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "updateSenderAddress",
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "updateBool",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StrangeMsgSender.sol": "StrangeMsgSender"
+			"contracts/retrain.sol": "ExampleBool"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StrangeMsgSender.sol": {
-			"keccak256": "0xc08fead331da1d386351e22baad9b10eddac5ce5fc3473e42e2cb333739b5b40",
+		"contracts/retrain.sol": {
+			"keccak256": "0x64dd53c74d2b0a73e708c0c70ec31808d0737b5dc2c8f4fcdfc6fcbcb1dc4473",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f66a5a36ee755a68947259fe8cef50b0e2cccb876efae0054e81e9661bcbf50",
-				"dweb:/ipfs/QmTFbgcvBucrNdFzHdqKP2oMovUT5NmZHdegEc9miN44Jz"
+				"bzz-raw://f91aaa21a94460fe6789558d74c4da4486fb7ae2570e69ea306d29fc95c01fb4",
+				"dweb:/ipfs/QmNm6AMyr7DRxbBsb7dTJytmnfKoQvLE2FUjX6D3De2wFU"
 			]
 		}
 	},
