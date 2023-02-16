@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "balance",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "balanceReceived",
+				"name": "totalBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DiffTranVSSend.sol": "ReceiverAction"
+			"contracts/retrain.sol": "ReceiverAction"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -63,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DiffTranVSSend.sol": {
-			"keccak256": "0xae23f010e6b1c05799ba2751072f11db7f9a1ffb5c58006f122fa593adcd4218",
+		"contracts/retrain.sol": {
+			"keccak256": "0x03cc4367e6b4731542a32a645ed53aa84e61e57d7629cb58164623060c89cb27",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://be9a8de7a63ef977dcce08f28ef68aa49b7ca9e7123959f7342d2c13385de0a3",
-				"dweb:/ipfs/QmYf9nfSP3ZDycwyAwxhnSBEnttq1KXFuGGJwK4FJm9K67"
+				"bzz-raw://c725ab77d959e97422c7887e326ef370b883523ead89ee81f40acf5fa3c3868c",
+				"dweb:/ipfs/QmbR7coFFNESpTRpKnsnHHJcd5kdG5n4GU8iU1fby4peAz"
 			]
 		}
 	},

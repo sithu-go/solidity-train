@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -36,9 +36,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExternalFuncCall.sol": "ContractTwo"
+			"contracts/nativecall.sol": "ContractTwo"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -50,12 +50,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExternalFuncCall.sol": {
-			"keccak256": "0xca96b15cc94ed53781ea93c6f56b07571ed5c183bb66312d81093c5346191f7f",
+		"contracts/nativecall.sol": {
+			"keccak256": "0x3e22bd4052451ead6bb43f8df0468ccc02b72fc905331540dc78f72dd183b9a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4886d12a928853e4e6f08d5335d73abd9ecaefd0c7753367c0b21cbf9ab44952",
-				"dweb:/ipfs/QmPkLPhs8BzHQVsmWzDhE74nrHtUHb2xzuJjhfzMmhEcrs"
+				"bzz-raw://8e89576d75aa38504b87985f1321ee08a6b3c2af00198a9ae7cfe571e070660f",
+				"dweb:/ipfs/QmdR8RSaPX8539S3Rvu81D2okm5uyDSVvTz2MCdA6DbMUG"
 			]
 		}
 	},

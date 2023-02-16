@@ -41,7 +41,7 @@ contract GuardianContract {
     }
 
     function giveAllowance(address _guardian,uint _amount) public {
-        require(msg.sender == owner && guardians[_guardian].isGuardian && _amount <= address(this).balance, "You needs to be owner and must give one of the guardains");
+        require(msg.sender == owner && guardians[_guardian].isGuardian && _amount <= address(this).balance, "You needs to be owner or must give one of the guardains and contract balance must be greater than amount");
         guardians[_guardian].balance = _amount;
     }
 

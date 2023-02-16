@@ -14,6 +14,9 @@ contract WillThrow {
     function aFunction() public pure {
         // require(false, "moh sein lar error always panic");
         // revert ThisIsACustomError("Text 1", "text message 2");
+
+        // assert used to validate invariants (return remaining gas)
+        // require used to validate user input (consume all gas)
         // assert(false);
         revert NotAllowedError("You are not allowed");
     }
