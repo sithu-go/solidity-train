@@ -162,6 +162,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "votedGuardians",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "votesForNewOwner",
 				"outputs": [
@@ -192,7 +211,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/guardian.sol": "GuardianContract"
+			"contracts/retrain.sol": "GuardianContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -206,12 +225,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/guardian.sol": {
-			"keccak256": "0xc336736838d707104bc4ff489abf652052f1a02221622d6cdb2f200c6ad06748",
+		"contracts/retrain.sol": {
+			"keccak256": "0x54067d757e39d41c1a0958ddbb3e8f8f6bafc56af1584b74828fe9cdd4c7f70f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65d5370f6511fef720edf277f3012691af2e7b82853206b0f2b5435493f88f86",
-				"dweb:/ipfs/QmRjheRxB9jDiAxW234mKPoiakQbxj5zNGpF1eDD2yAgLJ"
+				"bzz-raw://510334d6208492fa94ba94b3a6e3acbe5ed5b5b3391e4fdd842c6a8d5e9cdbb9",
+				"dweb:/ipfs/QmXsnjrm69Lm9drhftfTYb8kjCyMcEwsbeELPqR7uQSnPs"
 			]
 		}
 	},

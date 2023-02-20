@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.14+commit.80d49f37"
 	},
 	"language": "Solidity",
 	"output": {
@@ -39,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContractWalletV2.sol": "Consumer"
+			"contracts/guardian.sol": "Consumer"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartContractWalletV2.sol": {
-			"keccak256": "0xafdeebee9980027a653b3b63b083280a075e9d8d8f7dafa04fdf55680a346a1c",
+		"contracts/guardian.sol": {
+			"keccak256": "0x610c0a50f48902d1db1d5b142f5858d6b81ae82e297c62ea408f5a01d52d3781",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://838065805623e4f72240b2ff61c427ac0df500dd6eb8bea3b780c968478d3c12",
-				"dweb:/ipfs/QmcpxrErgRU4izDDDJtDbMWrpqANRtRvgxBEgL9DZXCcry"
+				"bzz-raw://dd2ddb7e0cdd26757a54918f978669a52db39a83b1a69ff173fe65c38b7de9ee",
+				"dweb:/ipfs/QmQpedD3PX925y1WT1qkcnu9VH9oHzjWhGivjR9MwRGmJx"
 			]
 		}
 	},

@@ -7,163 +7,29 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_guardian",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_myUint",
+						"type": "uint256"
 					}
 				],
-				"name": "addGuardain",
+				"name": "setMyUint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "currentGuardians",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_guardian",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "giveAllowance",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "guardians",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "isGuardian",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "balance",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "maxGuardians",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "newOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_newOwner",
-						"type": "address"
-					}
-				],
-				"name": "proposeNewOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					}
-				],
-				"name": "sendMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "votesForNewOwner",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -194,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/retrain.sol": {
-			"keccak256": "0x58ff96b9838be029e57fb725b1cd0e33eb2c83a02a50d99730736abedf2568e7",
+			"keccak256": "0x5b04484fa6532e6485c025a67efd4029cc3347d305ce6b51cdd5b47a22b1ff91",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aaf76fa4de3f23470bbde6940b3b1f4d15acc89d16a6cdd0a6fd312e5f377b68",
-				"dweb:/ipfs/QmS9wYDboesEbjSAxX8sNj9Jd7CCz1a2oQ2z2GE7viYemr"
+				"bzz-raw://a21c299ae9965bae8e066474314f142d27b13dd4b318f10241abbedd2361c571",
+				"dweb:/ipfs/QmP8a4SiigoUzpwz1jpT7a7xg1LYDWb4rtncw3mpFbqXoU"
 			]
 		}
 	},

@@ -6,6 +6,15 @@ contract Test {
     address public owner;
     uint[] public arr;
 
+    mapping(address => bool)[] public votedGuardians;
+    mapping(address => bool) vote;
+
+    // struct VotedInfo {
+    //     address voter;
+
+    // }
+    // []
+
     constructor() {
         owner = msg.sender;
     }
@@ -24,5 +33,21 @@ contract Test {
 
     function pushArray() public {
         arr.push(5);
+    }
+
+    function proposeNewOwner() public {
+        if (votedGuardians.length == 0) {
+            vote[msg.sender] = true;
+            votedGuardians.push();
+        }
+        votedGuardians[0][msg.sender] = true;
+    }
+
+    function renewMap() public {
+        delete votedGuardians;
+    }
+
+    function checkVote() public view returns(bool) {
+        return votedGuardians[0][msg.sender];
     }
 }
